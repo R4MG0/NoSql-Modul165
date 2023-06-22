@@ -1,0 +1,296 @@
+{
+  "technologies": [
+    {
+      "id": 1,
+      "name": "reactjs"
+    },
+    {
+      "id": 2,
+      "name": "nextjs"
+    }
+  ],
+  "users": [
+    {
+      "email": "guest@guest.ch",
+      "password": "$2a$10$Yoblm7H87hVkOuhIcpzeQujspMfWQ0GIUdde2luphuRzZWXjwYOXG",
+      "firstName": "Guest",
+      "lastName": "Guest",
+      "role": "user",
+      "img": "",
+      "id": 5
+    },
+    {
+      "email": "root@root.ch",
+      "password": "$2a$10$gJMo.udHehBlWQUzpLPwkuuW0joDNqyL32pRG7cq3ay7I41I22yx.",
+      "firstName": "Root",
+      "lastName": "Root",
+      "role": "admin",
+      "img": "",
+      "id": 6
+    },
+    {
+      "email": "loic@gmail.com",
+      "password": "$2a$10$zWvM3aogrJFTqw4uDMJIru3GBH4nXjTIJUh8Rg4y6waTgmYlBLwoq",
+      "firstName": "Loic",
+      "lastName": "Smith",
+      "role": "user",
+      "img": "",
+      "id": 7
+    },
+    {
+      "email": "Patrick@gmail.com",
+      "password": "$2a$10$Oo4Pv2Bs5eUT3Xebb38uMuwmQd1VlN.HexgaXvSv6juDeJo6Oue/C",
+      "firstName": "Patrick",
+      "lastName": "Smith",
+      "role": "user",
+      "img": "/d34d0f4f-ed2f-47e1-aa4a-6f1b90a6d991.jpeg",
+      "id": 8
+    },
+    {
+      "email": "admin@admin.ch",
+      "password": "$2a$10$Tiwaukyp7xbHmYL9tkqEUOmTTDqWM6hEZuU20PO8Qxv8SvdqkuC.O",
+      "firstName": "Admin",
+      "lastName": "Admin",
+      "role": "admin",
+      "img": "/6d08ef45-4bfe-4a50-852d-95bea94132a7.jpeg",
+      "id": 9
+    },
+    {
+      "email": "oliver@gmail.com",
+      "password": "$2a$10$Lycw3b2Lix8KENFOOg2lXuyy/BQ8z1q2yrPntFDOXMm8kiWvDntZS",
+      "firstName": "Oliver",
+      "lastName": "Campbell",
+      "role": "admin",
+      "img": "/3c0c27df-82d6-4ade-b0ef-9121d793d9a4.png",
+      "id": 10
+    },
+    {
+      "email": "belle@gmail.com",
+      "password": "$2a$10$R6T9zeYzB0xcoNTOIto54.7sRv9Bl0zq4vdGZcv/w3du1bidPn.w2",
+      "firstName": "Belle",
+      "lastName": "Swash",
+      "role": "user",
+      "img": "/81cdd2b8-dd77-4534-b28c-c677de2795a1.jpeg",
+      "id": 11
+    },
+    {
+      "email": "thomas@gmail.com",
+      "password": "$2a$10$RRN0.UFea7TJmjkssR0Zr.zAy501YeQ906Hg637tsWZZUeYWoIhqq",
+      "firstName": "Thomas",
+      "lastName": "Brenner",
+      "role": "user",
+      "img": "",
+      "id": 12
+    },
+    {
+      "email": "ben@gmail.com",
+      "password": "$2a$10$bl8JbdRE3AVRihfJbvNe2ODc2OpYOeiAptyBSXRMNDVEv9lI1Eg/e",
+      "firstName": "Ben",
+      "lastName": "Ambühl",
+      "role": "user",
+      "img": "/b4924750-603a-4bad-b235-236c972e2b7e.png",
+      "id": 13
+    },
+    {
+      "email": "marco@gmail.com",
+      "password": "$2a$10$vDyVNZzMCAuN/jJfu0qlHuO9Gn2FH47v2M/1uNApx30/w1NdWW0Rq",
+      "firstName": "Marco",
+      "lastName": "Herren",
+      "role": "admin",
+      "img": "/6f29eb52-95b7-476e-950b-ef24bfccc850.jpeg",
+      "id": 14
+    },
+    {
+      "email": "mail@mail.com",
+      "password": "$2a$10$Vsh9A2nK8aWeuqg4duY8RujMwHYvdvniYfCHJQTiFCzufzxF9dFDe",
+      "id": 15
+    },
+    {
+      "email": "hello@mail.com",
+      "password": "$2a$10$R3z4snpwcQuue6tHSl/ujeHATFIJ8jjLYRLoReKtwK3RYajRTTC8i",
+      "img": "/6f29eb52-95b7-476e-950b-ef24bfccc850.jpeg",
+      "id": 16
+    },
+    {
+      "email": "mail.withoutStuff@mail.com",
+      "password": "$2a$10$AE1ceAP5M39aooNpNsrvReTtBNwxbod.NyXpJSuBuC7sOswWsdqBa",
+      "role": "user",
+      "id": 17
+    },
+    {
+      "email": "mail.withoutStuff2@mail.com",
+      "password": "$2a$10$5Jcrv84yJGvBbmDHCjBhRuG90ldEk6K8OFA9Q227Z51Q/ZpBWdWCi",
+      "firstName": "mail",
+      "lastName": "withoutStuff2",
+      "id": 18
+    }
+    
+  ],
+  "posts": [
+    {
+      "title": "Meer",
+      "img": "/122e1263-e812-44ab-b0ca-b92c8ff885b2.jpeg",
+      "description": "Ds Meer gseht sehr schön ",
+      "user": "Root",
+      "date": "2023.6.22",
+      "time": "8:59",
+      "comments": [],
+      "userID": 6,
+      "profileImg": "",
+      "id": 2
+    },
+    {
+      "title": "Sunne",
+      "img": "/ee979c27-d395-4c67-ad9f-51fd852d83a6.jpeg",
+      "description": "Zieh di mau die Sunne ihne",
+      "user": "Root",
+      "date": "2023.6.22",
+      "time": "9:0",
+      "comments": [],
+      "userID": 6,
+      "profileImg": "",
+      "id": 3
+    },
+    {
+      "title": "admin Post",
+      "img": "/e5806ba1-6cd2-442b-b2c4-2ad5911d3ec3.jpeg",
+      "description": "aoiresnt",
+      "user": "Admin",
+      "date": "2023.6.22",
+      "time": "9:4",
+      "comments": [],
+      "userID": 9,
+      "profileImg": "/6d08ef45-4bfe-4a50-852d-95bea94132a7.jpeg",
+      "id": 4
+    },
+    {
+      "title": "This is the most wonderfull view",
+      "img": "/7d547abf-aa9b-4696-8f0e-48ca9ab3612e.jpeg",
+      "description": "I've never seen something better",
+      "user": "Admin",
+      "date": "2023.6.22",
+      "time": "9:4",
+      "comments": [],
+      "userID": 9,
+      "profileImg": "/6d08ef45-4bfe-4a50-852d-95bea94132a7.jpeg",
+      "id": 5
+    },
+    {
+      "title": "WOW",
+      "img": "/9138bea7-6c48-414c-abd2-e762536f1aff.jpeg",
+      "description": "aioerstn",
+      "user": "Guest",
+      "date": "2023.6.22",
+      "time": "9:5",
+      "comments": [],
+      "userID": 5,
+      "profileImg": "",
+      "id": 6
+    },
+    {
+      "title": "Amazing",
+      "img": "/ee7cfa1d-6c82-4bfb-83e8-d23174a317b7.jpeg",
+      "description": "This is a wonderful castel",
+      "user": "Patrick",
+      "date": "2023.6.22",
+      "time": "9:8",
+      "comments": [],
+      "userID": 8,
+      "profileImg": "/d34d0f4f-ed2f-47e1-aa4a-6f1b90a6d991.jpeg",
+      "id": 7
+    },
+    {
+      "title": "Just WOW",
+      "img": "/d6ad026a-9909-4dd6-b9df-ca3274581926.jpeg",
+      "description": "Look at this rocks",
+      "user": "Patrick",
+      "date": "2023.6.22",
+      "time": "9:9",
+      "comments": [],
+      "userID": 8,
+      "profileImg": "/d34d0f4f-ed2f-47e1-aa4a-6f1b90a6d991.jpeg",
+      "id": 8
+    },
+    {
+      "title": "This is so wonderfull",
+      "img": "/c22e2be4-90df-4b57-ae12-4e3b2bd5d4bc.jpeg",
+      "description": "arosient",
+      "user": "Oliver",
+      "date": "2023.6.22",
+      "time": "9:14",
+      "comments": [],
+      "userID": 10,
+      "profileImg": "/3c0c27df-82d6-4ade-b0ef-9121d793d9a4.png",
+      "id": 9
+    },
+    {
+      "title": "Yööööööööö",
+      "img": "/d9b72629-9c73-4272-b703-c7eb32747472.jpeg",
+      "description": "yööööööööööö",
+      "user": "Belle",
+      "date": "2023.6.22",
+      "time": "9:17",
+      "comments": [],
+      "userID": 11,
+      "profileImg": "/81cdd2b8-dd77-4534-b28c-c677de2795a1.jpeg",
+      "id": 10
+    },
+    {
+      "title": "Hole Real",
+      "img": "/7cb3e6ff-420c-46dc-bbe7-b5f7800c593d.png",
+      "description": "Real > Barca",
+      "user": "Ben",
+      "date": "2023.6.22",
+      "time": "9:22",
+      "comments": [],
+      "userID": 13,
+      "profileImg": "/b4924750-603a-4bad-b235-236c972e2b7e.png",
+      "id": 11
+    },
+    {
+      "title": "Juve",
+      "img": "/533f17fd-6471-44d0-b3f4-a1d62d7d9f43.jpeg",
+      "description": "Juventus",
+      "user": "Marco",
+      "date": "2023.6.22",
+      "time": "9:22",
+      "comments": [],
+      "userID": 14,
+      "profileImg": "/6f29eb52-95b7-476e-950b-ef24bfccc850.jpeg",
+      "id": 12
+    },
+    {
+      "title": "What a wonderful sun rise",
+      "img": "/ff2d1573-0940-4be4-8397-1bdc03c6ee6d.jpeg",
+      "description": "This looks just amazing",
+      "user": "Thomas",
+      "date": "2023.6.22",
+      "time": "9:24",
+      "comments": [],
+      "userID": 12,
+      "profileImg": "",
+      "id": 13
+    },
+    {
+      "title": "Post only with title",
+      "id": 14
+    },
+    {
+      "title": "Post only with title and description",
+      "description": "this is a description",
+      "id": 15
+    },
+    {
+      "title": "Post only with title and img",
+      "description": "this is a description",
+      "img": "/533f17fd-6471-44d0-b3f4-a1d62d7d9f43.jpeg",
+      "userID": 14,
+      "id": 16
+    },
+    {
+      "img": "/533f17fd-6471-44d0-b3f4-a1d62d7d9f43.jpeg",
+      "userID": 14,
+      "id": 17
+    }
+  ]
+}

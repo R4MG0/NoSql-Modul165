@@ -1,0 +1,59 @@
+.buttonContainer{
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+}
+
+.user{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.card{
+    display: flex;
+}
+
+.img{
+    display: inline-block; 
+    position: relative; 
+    width: 150px; 
+    height: 150px; 
+    overflow: hidden; 
+    border-radius: 10%; 
+    align-items: center;
+} 
+    
+.img img { 
+    width: auto; 
+    height: 100%; 
+    margin-left: 0px;
+}
+   
+.profile {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    word-break: break-word;
+}
+
+.name {
+    margin-left: 2.5rem;
+}
+
+.button {
+    justify-content: flex-end;
+    margin-left: 2.5rem;
+}
+
+.btn{
+    position: relative;
+}
+
+.btn button{
+    position: absolute;
+    top: 0px;
+    right: 0px;
+}

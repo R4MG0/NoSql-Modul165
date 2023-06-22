@@ -1,0 +1,52 @@
+.singlePost{
+    display : grid;
+    width: auto;
+    height: auto;
+    grid-template-columns: 1fr ;
+    grid-template-rows: auto 0.5em auto;
+    grid-gap: 1rem;
+    grid-template-areas:
+        "header"
+        "image"
+        "content";
+    word-break: break-word;
+}
+
+.singlePost .title{
+    grid-area: header;
+}
+
+.singlePost  .image{
+    grid-area: image;
+    max-width: 100%;
+}
+
+.singlePost .text{
+    grid-area:content;
+    word-break: break-word;
+}
+
+.btn{
+    position: relative;
+}
+
+.btn button{
+    position: absolute;
+    top: 0px;
+    right: 0px;
+}
+
+.dateTime{
+    text-align: right;
+}
+
+
+.topRight{
+    position: relative;
+}
+/* 
+.topRight .tp{
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+} */

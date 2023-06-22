@@ -1,0 +1,172 @@
+.img {
+  display: inline-flex;
+  position: relative;
+  width: 75px;
+  height: 75px;
+  overflow: hidden;
+  border-radius: 50%;
+  align-items: center;
+}
+
+.img img {
+  width: auto;
+  height: 100%;
+  margin-left: 0px;
+  /* margin-right: -20px; */
+}
+
+.profile {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  word-break: break-word;
+}
+
+.card {
+  margin-left: 1rem;
+}
+
+.posts {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  word-break: break-word;
+}
+
+.hello {
+  margin-top: 1.5rem;
+  /* margin-left: 1.5rem; */
+}
+
+@media (max-width: 2650px) {
+  .hello {
+    width: 55vw;
+    height: 80vh;
+    /* margin-right: 1rem; */
+  }
+}
+
+@media (min-width: 1920px) {
+  .hello {
+    width: 52vw;
+    height: 73vh;
+    /* margin-right: 1rem; */
+  }
+}
+
+@media (max-width: 1700px) {
+  .hello {
+    width: 45vw;
+    height: 70vh;
+    /* margin-right: 1rem; */
+  }
+}
+
+@media (max-width: 1500px) {
+  .hello {
+    width: 70vw;
+    height: 75vh;
+  }
+}
+
+@media (max-width: 1300px) {
+  .hello {
+    width: 70vw;
+    height: 75vh;
+  }
+}
+
+@media (max-width: 1150px) {
+  .hello {
+    width: 80vw;
+    height: 75vh;
+  }
+}
+
+@media (max-width: 1000px) {
+  .hello {
+    width: 70vw;
+    height: 70vh;
+  }
+}
+
+@media (max-width: 820px) {
+  .hello {
+    width: 70vw;
+    height: 60vh;
+  }
+}
+
+@media (max-width: 770px) {
+  .hello {
+    width: 75vw;
+    height: 55vh;
+  }
+}
+
+@media (max-width: 760px) {
+  .hello {
+    width: 80vw;
+    height: 63vh;
+  }
+}
+
+@media (max-width: 650px) {
+  .hello {
+    width: 80vw;
+    height: 60vh;
+  }
+  .img {
+    display: inline-flex;
+    position: relative;
+    width: 50px;
+    height: 50px;
+    overflow: hidden;
+    border-radius: 50%;
+    align-items: center;
+  }
+  .img img {
+    margin-left: -20px;
+  }
+}
+
+@media (max-width: 530px) {
+  .hello {
+    width: 90vw;
+    height: 50vh;
+  }
+}
+
+@media (max-width: 420px) {
+  .hello {
+    width: 80vw;
+    height: 48vh;
+  }
+  .img {
+    display: inline-flex;
+    position: relative;
+    width: 50px;
+    height: 50px;
+    overflow: hidden;
+    border-radius: 50%;
+    align-items: center;
+  }
+  .img img {
+    margin-left: -20px;
+  }
+}
+
+@media (max-width: 380px) {
+  .hello {
+    width: 95vw;
+    height: 57vh;
+  }
+}
+
+@media (max-height: 640px) {
+  .hello {
+    width: 60vw;
+    height: 83vh;
+  }
+}

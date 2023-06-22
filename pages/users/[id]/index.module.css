@@ -1,0 +1,19 @@
+.img{
+    display: inline-block; 
+    position: relative; 
+    width: 200px; 
+    height: 200px; 
+    overflow: hidden; 
+    border-radius: 50%; } 
+    
+.img img { 
+    width: auto; height: 100%; margin-left: -75px;
+}
+
+.profile{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    /* justify-content: center; */
+    flex: 1 1 50%;
+}
